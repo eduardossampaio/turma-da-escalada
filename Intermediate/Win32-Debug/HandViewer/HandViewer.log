@@ -1,0 +1,21 @@
+﻿Build started 20/08/2013 19:58:40.
+     1>Project "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\HandViewer.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\OpenNI2\Include\\" /I. /I"C:\Program Files (x86)\PrimeSense\NiTE2\Include\\" /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\Intermediate\Win32-Debug\HandViewer\\" /Fd"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\Intermediate\Win32-Debug\HandViewer\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Viewer.cpp
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         Viewer.cpp
+     1>c:\program files (x86)\primesense\nite2\samples\handviewer\viewer.cpp(55): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\program files (x86)\primesense\nite2\samples\handviewer\viewer.cpp(162): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\HandViewer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\\" /LIBPATH:"C:\Program Files (x86)\PrimeSense\NiTE2\Lib\\" /LIBPATH:"C:\Program Files (x86)\OpenNI2\Lib\\" /LIBPATH:. opengl32.lib glut32.lib NiTE2.lib OpenNI2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\HandViewer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\HandViewer.lib" /MACHINE:X86 "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\Intermediate\Win32-Debug\HandViewer\main.obj"
+         "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\Intermediate\Win32-Debug\HandViewer\Viewer.obj"
+         HandViewer.vcxproj -> C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\..\Bin\HandViewer.exe
+     1>Done Building Project "C:\Program Files (x86)\PrimeSense\NiTE2\Samples\HandViewer\HandViewer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.61

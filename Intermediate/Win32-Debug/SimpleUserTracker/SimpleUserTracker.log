@@ -1,0 +1,10 @@
+﻿Build started 23/08/2013 11:40:29.
+     1>Project "C:\Program Files\PrimeSense\NiTE2\Samples\SimpleUserTracker\SimpleUserTracker.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\PrimeSense\NiTE2\Samples\SimpleUserTracker\..\Bin\SimpleUserTracker.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\PrimeSense\NiTE2\Samples\SimpleUserTracker\..\Bin\\" /LIBPATH:"C:\Users\Eduardo\Documents\Visual Studio 2012\Projects\turma-da-escalada\lib\NiTE2\Lib" /LIBPATH:"C:\Program Files (x86)\OpenNI2\Lib\\" NiTE2.lib OpenNI2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Program Files\PrimeSense\NiTE2\Samples\SimpleUserTracker\..\Bin\SimpleUserTracker.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\PrimeSense\NiTE2\Samples\SimpleUserTracker\..\Bin\SimpleUserTracker.lib" /MACHINE:X86 "C:\Program Files\PrimeSense\NiTE2\Samples\SimpleUserTracker\..\Bin\Intermediate\Win32-Debug\SimpleUserTracker\main.obj"
+         SimpleUserTracker.vcxproj -> C:\Program Files\PrimeSense\NiTE2\Samples\SimpleUserTracker\..\Bin\SimpleUserTracker.exe
+     1>Done Building Project "C:\Program Files\PrimeSense\NiTE2\Samples\SimpleUserTracker\SimpleUserTracker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.29
