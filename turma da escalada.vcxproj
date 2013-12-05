@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{50CF3911-4CB7-4F8E-BC1D-77305858B592}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>turmadaescalada</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>bin</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>lib\irrlicht-1.8\include;lib\OpenNI2\Include;lib\NiTE2\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(NITE2_LIB);$(OPENNI2_LIB);$(OutDir);lib\irrlicht-1.8\lib\Win32-visualstudio;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OpenNI2.lib;NiTE2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Avatar.h" />
+    <ClInclude Include="Boneco.h" />
+    <ClInclude Include="Botao.h" />
+    <ClInclude Include="CaixaMensagem.h" />
+    <ClInclude Include="CaixaMensagemSimNao.h" />
+    <ClInclude Include="CaixaMensagemSimple.h" />
+    <ClInclude Include="CaixaTexto.h" />
+    <ClInclude Include="CaixaVendaItem.h" />
+    <ClInclude Include="CalculosUteis.h" />
+    <ClInclude Include="CheckBox.h" />
+    <ClInclude Include="CliqueListener.h" />
+    <ClInclude Include="ComboBox.h" />
+    <ClInclude Include="Componente.h" />
+    <ClInclude Include="ComponenteInformacoesJogador.h" />
+    <ClInclude Include="ComponenteItemLojaIcone.h" />
+    <ClInclude Include="ComponenteItemLojaIconeVazio.h" />
+    <ClInclude Include="ComponenteItemLojaSelecionado.h" />
+    <ClInclude Include="Configuracoes.h" />
+    <ClInclude Include="Conversoes.h" />
+    <ClInclude Include="Conversor.h" />
+    <ClInclude Include="Cronometro.h" />
+    <ClInclude Include="Cursor.h" />
+    <ClInclude Include="dao.h" />
+    <ClInclude Include="Editavel.h" />
+    <ClInclude Include="Exibivel.h" />
+    <ClInclude Include="FaseDAO.h" />
+    <ClInclude Include="Focavel.h" />
+    <ClInclude Include="GerenciadorDeExibicao.h" />
+    <ClInclude Include="GerenciadorExibicao2.h" />
+    <ClInclude Include="Gesto.h" />
+    <ClInclude Include="Globais.h" />
+    <ClInclude Include="interface.h" />
+    <ClInclude Include="ItemDAO.h" />
+    <ClInclude Include="ItemLoja.h" />
+    <ClInclude Include="Inventario.h" />
+    <ClInclude Include="JanelaEscolhaFase.h" />
+    <ClInclude Include="JanelaEscolhaPerfil.h" />
+    <ClInclude Include="JanelaEscolhaPersonagem.h" />
+    <ClInclude Include="JanelaJogo.h" />
+    <ClInclude Include="JanelaLoja.h" />
+    <ClInclude Include="JanelaLoja2.h" />
+    <ClInclude Include="Janelas.h" />
+    <ClInclude Include="IdentificadorMovimento.h" />
+    <ClInclude Include="JanelaConfiguracao.h" />
+    <ClInclude Include="JanelaNovoJogo.h" />
+    <ClInclude Include="JanelaTesteKinect.h" />
+    <ClInclude Include="Jogador.h" />
+    <ClInclude Include="KinectCursor.h" />
+    <ClInclude Include="KinectSensor.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="Marcador.h" />
+    <ClInclude Include="MarcadorPedra.h" />
+    <ClInclude Include="MouseCursor.h" />
+    <ClInclude Include="MouseSensor.h" />
+    <ClInclude Include="MovimentadorBracoDireito.h" />
+    <ClInclude Include="MovimentadorBracoEsquerdo.h" />
+    <ClInclude Include="MovimentadorMembro.h" />
+    <ClInclude Include="MovimentadorPernaDireita.h" />
+    <ClInclude Include="MovimentadorPernaEsquerda.h" />
+    <ClInclude Include="MovimentadorSubirPersonagem.h" />
+    <ClInclude Include="Movimento.h" />
+    <ClInclude Include="movimentos.h" />
+    <ClInclude Include="MovimentoSprayDireito.h" />
+    <ClInclude Include="MovimentoSprayEsquerdo.h" />
+    <ClInclude Include="NumberSpinner.h" />
+    <ClInclude Include="OperacoesComArquivos.h" />
+    <ClInclude Include="PerfilDao.h" />
+    <ClInclude Include="PersonagemDAO.h" />
+    <ClInclude Include="Pose.h" />
+    <ClInclude Include="PoseEscaparPedra.h" />
+    <ClInclude Include="PosePause.h" />
+    <ClInclude Include="PosePernaEmPe.h" />
+    <ClInclude Include="Sensor.h" />
+    <ClInclude Include="sensores.h" />
+    <ClInclude Include="Imagem.h" />
+    <ClInclude Include="SensorListener.h" />
+    <ClInclude Include="Tecla.h" />
+    <ClInclude Include="TecladoAlfaNumerico.h" />
+    <ClInclude Include="TecladoGenero.h" />
+    <ClInclude Include="TecladoNumerico.h" />
+    <ClInclude Include="TecladoVirtual.h" />
+    <ClInclude Include="tipos.h" />
+    <ClInclude Include="IntroScene.h" />
+    <ClInclude Include="Janela.h" />
+    <ClInclude Include="JanelaPrincipal.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Transformador.h" />
+    <ClInclude Include="TransformadorAtualizacaoPosicao.h" />
+    <ClInclude Include="TransformadorAtualizarPosicaoBracoDireito.h" />
+    <ClInclude Include="TransformadorAtualizarPosicaoBracoEsquerdo.h" />
+    <ClInclude Include="TransformadorAtualizarPosicaoPernaDireita.h" />
+    <ClInclude Include="TransformadorAtualizarPosicaoPernaEsquerda.h" />
+    <ClInclude Include="TransformadorKinect.h" />
+    <ClInclude Include="XMLDAO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Avatar.cpp" />
+    <ClCompile Include="Boneco.cpp" />
+    <ClCompile Include="Botao.cpp" />
+    <ClCompile Include="CaixaMensagem.cpp" />
+    <ClCompile Include="CaixaMensagemSimNao.cpp" />
+    <ClCompile Include="CaixaMensagemSimple.cpp" />
+    <ClCompile Include="CaixaTexto.cpp" />
+    <ClCompile Include="CaixaVendaItem.cpp" />
+    <ClCompile Include="CalculosUteis.cpp" />
+    <ClCompile Include="CheckBox.cpp" />
+    <ClCompile Include="CliqueListener.cpp" />
+    <ClCompile Include="ComboBox.cpp" />
+    <ClCompile Include="Componente.cpp" />
+    <ClCompile Include="ComponenteInformacoesJogador.cpp" />
+    <ClCompile Include="ComponenteItemLojaIcone.cpp" />
+    <ClCompile Include="ComponenteItemLojaIconeVazio.cpp" />
+    <ClCompile Include="ComponenteItemLojaSelecionado.cpp" />
+    <ClCompile Include="Configuracoes.cpp" />
+    <ClCompile Include="Conversoes.cpp" />
+    <ClCompile Include="Conversor.cpp" />
+    <ClCompile Include="Cronometro.cpp" />
+    <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="Editavel.cpp" />
+    <ClCompile Include="Exibivel.cpp" />
+    <ClCompile Include="FaseDAO.cpp" />
+    <ClCompile Include="Focavel.cpp" />
+    <ClCompile Include="GerenciadorDeExibicao.cpp" />
+    <ClCompile Include="GerenciadorExibicao2.cpp" />
+    <ClCompile Include="Gesto.cpp" />
+    <ClCompile Include="Globais.cpp" />
+    <ClCompile Include="IdentificadorMovimento.cpp" />
+    <ClCompile Include="Imagem.cpp" />
+    <ClCompile Include="IntroScene.cpp" />
+    <ClCompile Include="ItemDAO.cpp" />
+    <ClCompile Include="ItemLoja.cpp" />
+    <ClCompile Include="Inventario.cpp" />
+    <ClCompile Include="Janela.cpp" />
+    <ClCompile Include="JanelaConfiguracao.cpp" />
+    <ClCompile Include="JanelaEscolhaFase.cpp" />
+    <ClCompile Include="JanelaEscolhaPerfil.cpp" />
+    <ClCompile Include="JanelaEscolhaPersonagem.cpp" />
+    <ClCompile Include="JanelaJogo.cpp" />
+    <ClCompile Include="JanelaLoja.cpp" />
+    <ClCompile Include="JanelaLoja2.cpp" />
+    <ClCompile Include="JanelaNovoJogo.cpp" />
+    <ClCompile Include="JanelaPrincipal.cpp" />
+    <ClCompile Include="JanelaTesteKinect.cpp" />
+    <ClCompile Include="Jogador.cpp" />
+    <ClCompile Include="KinectCursor.cpp" />
+    <ClCompile Include="KinectSensor.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="Marcador.cpp" />
+    <ClCompile Include="MarcadorPedra.cpp" />
+    <ClCompile Include="MouseCursor.cpp" />
+    <ClCompile Include="MouseSensor.cpp" />
+    <ClCompile Include="MovimentadorBracoDireito.cpp" />
+    <ClCompile Include="MovimentadorBracoEsquerdo.cpp" />
+    <ClCompile Include="MovimentadorMembro.cpp" />
+    <ClCompile Include="MovimentadorPernaDireita.cpp" />
+    <ClCompile Include="MovimentadorPernaEsquerda.cpp" />
+    <ClCompile Include="MovimentadorSubirPersonagem.cpp" />
+    <ClCompile Include="Movimento.cpp" />
+    <ClCompile Include="MovimentoSprayDireito.cpp" />
+    <ClCompile Include="MovimentoSprayEsquerdo.cpp" />
+    <ClCompile Include="NumberSpinner.cpp" />
+    <ClCompile Include="OperacoesComArquivos.cpp" />
+    <ClCompile Include="PerfilDao.cpp" />
+    <ClCompile Include="PersonagemDAO.cpp" />
+    <ClCompile Include="Pose.cpp" />
+    <ClCompile Include="PoseEscaparPedra.cpp" />
+    <ClCompile Include="PosePause.cpp" />
+    <ClCompile Include="PosePernaEmPe.cpp" />
+    <ClCompile Include="Sensor.cpp" />
+    <ClCompile Include="SensorListener.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Tecla.cpp" />
+    <ClCompile Include="TecladoAlfaNumerico.cpp" />
+    <ClCompile Include="TecladoGenero.cpp" />
+    <ClCompile Include="TecladoNumerico.cpp" />
+    <ClCompile Include="TecladoVirtual.cpp" />
+    <ClCompile Include="Transformador.cpp" />
+    <ClCompile Include="TransformadorAtualizacaoPosicao.cpp" />
+    <ClCompile Include="TransformadorAtualizarPosicaoBracoDireito.cpp" />
+    <ClCompile Include="TransformadorAtualizarPosicaoBracoEsquerdo.cpp" />
+    <ClCompile Include="TransformadorAtualizarPosicaoPernaDireita.cpp" />
+    <ClCompile Include="TransformadorAtualizarPosicaoPernaEsquerda.cpp" />
+    <ClCompile Include="TransformadorKinect.cpp" />
+    <ClCompile Include="turma da escalada.cpp" />
+    <ClCompile Include="XMLDAO.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
