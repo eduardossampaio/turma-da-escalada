@@ -1,0 +1,17 @@
+<configuracoes>		
+	<resolucoes>
+		<resolucao>
+			<largura>1024</largura>
+			<altura>768</altura>
+		</resolucao>
+		<resolucao>
+			<largura>1280</largura>
+			<altura>720</altura>
+		</resolucao>
+	<resolucoes>
+	<cores>
+		<cor>16</cor>
+		<cor>32</cor>
+	</cores>
+
+</configuracoes>
