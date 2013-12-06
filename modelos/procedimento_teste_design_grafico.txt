@@ -1,0 +1,16 @@
+Classe main no projeto = turma da escalada.cpp
+Procedimento de teste
+
+1 - Utilizar o gerenciador para testar as janelas do projeto.
+Exemplo :
+
+gerenciador -> novaJanelaParaExibicao(new JanelaPrincipal(smgr->getRootSceneNode(),smgr,11));
+
+2 - Navegue até respectiva classe (JanelaPrincipal) e faça as devidas aptações.
+Exemplo : JanelaPrincipal::fundo = new Imagem(Vetor(),"ui/janela/turma-escalada.png");.
+Obs : "Observe a imagem que está sendo refereciada dentro de ui. Importante fazer essas
+adaptações tanto dentro dos arquivos (.h e .cpp).
+
+Coisas a fazer predefinidas no e-mail.
+
+
