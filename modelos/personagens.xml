@@ -1,0 +1,87 @@
+<personagens>
+	<personagem>
+		<id>professor</id>
+		<arquivo>modelos/personagem/Bonecos definitivos 23-09-2013/ArquivoMS3/menino1.ms3d</arquivo>
+		<imagem>modelos/personagem/professor.png</imagem>
+		<escala>	
+			<x>10</x>
+			<y>10</y>
+			<z>10</z>
+		</escala>
+		<rotacao>	
+			<x>270</x>
+			<y>0</y>
+			<z>90</z>
+		</rotacao>
+		<material>
+			<id>1</id>
+			<arquivo></arquivo> 
+		</material>
+
+
+	</personagem>
+	<personagem>
+		<id>menino1</id>
+		<arquivo>modelos/personagem/Bonecos definitivos 23-09-2013/menino1/textures/menino1.x</arquivo>
+		<imagem>modelos/personagem/menino1.png</imagem>
+		<escala>	
+			<x>10</x>
+			<y>10</y>
+			<z>10</z>
+		</escala>
+		<rotacao>	
+			<x>0</x>
+			<y>180</y>
+			<z>0</z>
+		</rotacao>
+		<material>
+			<id>1</id>
+			
+		</material>
+
+
+	</personagem>
+	<personagem>
+		<id>menino2</id>		
+		<arquivo>modelos/personagem/Bonecos definitivos 23-09-2013/menino2/textures/menino2.x</arquivo>
+		<imagem>modelos/personagem/menino2.png</imagem>
+		<escala>	
+			<x>10</x>
+			<y>10</y>
+			<z>10</z>
+		</escala>
+		<rotacao>	
+			<x>0</x>
+			<y>180</y>
+			<z>0</z>
+		</rotacao>
+		<material>
+			<id>1</id>
+			<arquivo></arquivo> 
+		</material>
+
+	</personagem>
+	<personagem>
+		<id>menina1</id>
+		<arquivo>modelos/personagem/Bonecos definitivos 23-09-2013/menina3/textures/menina3.x</arquivo>
+		<imagem>modelos/personagem/menina3.png</imagem>
+		<escala>	
+			<x>10</x>
+			<y>10</y>
+			<z>10</z>
+		</escala>
+		<rotacao>	
+			<x>0</x>
+			<y>180</y>
+			<z>0</z>
+		</rotacao>
+		<material>
+			<id>1</id>
+			<arquivo></arquivo> 
+		</material>
+
+	</personagem>
+	
+
+
+</personagens>

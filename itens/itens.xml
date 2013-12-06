@@ -1,0 +1,260 @@
+<itens>
+	<item>
+		<arquivo>itens/sapatilha.png</arquivo>
+		<arquivoG>itens/sapatilha_grande.png</arquivoG>
+		<nome>Sapatilha Snacke</nome>
+		<descricao>  Sapatilha Snacke
+			Recomendada: Qualquer rocha. 
+			Durabilidade: 10 escaladas.
+			Material: Couro/Borracha. 
+			Peso: 506g
+			Preco: R$ 290,00</descricao>
+		<preco>290</preco>
+		<peso>506</peso>
+		<id>1</id>
+		<tipo>1</tipo>
+	</item>
+	<item>
+		<arquivo>itens/sapatilha2.png</arquivo>
+		<arquivoG>itens/sapatilha2_grande.png</arquivoG>
+		<nome>Sapatilha Five Ten </nome>
+		<descricao>  Sapatilha Five Ten
+			Recomendada:Rocha/Resina.
+			Durabilidade: 20 escaladas.
+			Material:camurca sintetica.
+			Peso: 560g
+			Preco: R$ 480,00</descricao>
+		<preco>480</preco>
+		<peso>560</peso>
+		<id>2</id>
+		<tipo>1</tipo>
+	</item>
+	<item>
+		<arquivo>itens/capacete.png</arquivo>
+		<arquivoG>itens/capacete_grande.png</arquivoG>
+		<nome>Capacete Focus </nome>
+		<descricao>  Capacete Focus
+			Resistencia:10 Quedas 
+			Impacto: medio
+			Material:Polipropileno C/Lanterna.
+			Peso: 410g
+			Preco: R$ 135,00 </descricao>
+		<preco>135</preco>
+		<peso>410</peso>
+		<id>3</id>
+		<tipo>2</tipo>
+	</item>
+	<item>
+		<arquivo>itens/capacete2.png</arquivo>
+		<arquivoG>itens/capacete2_grande.png</arquivoG>
+		<nome>Capacete Black Diamond</nome>
+		<descricao>  Capacete Black Diamond
+			Resistencia:5 Quedas 
+			Impacto: alto
+			Material:Plastico ABS S/Lanterna.
+			Peso: 360g
+			Preco: R$ 300,00</descricao>
+		<preco>300</preco>
+		<peso>360</peso>
+		<id>4</id>
+		<tipo>2</tipo>
+	</item>
+	<item>
+		<arquivo>itens/bicicleta.png</arquivo>
+		<arquivoG>itens/bicicleta_grande.png</arquivoG>
+		<nome>Bicicleta Caloi 20</nome>
+		<descricao>  Bicicleta Caloi 20 
+			Velocidade Media: 10KM 
+			Marcha: Sim(tubo) 
+			Material:Aco, plastico.
+			Peso: 1191g
+			Preco: R$ 400,00</descricao>
+		<preco>400</preco>
+		<peso>1191</peso>
+		<id>5</id>
+		<tipo>0</tipo>
+	</item>
+	<item>
+		<arquivo>itens/cadeirinha2.png</arquivo>
+		<arquivoG>itens/cadeirinha2_grande.png</arquivoG>
+		<nome>Cadeirinha Arane UIAA</nome>
+		<descricao>  Cadeirinha Arane UIAA
+			Peso Recomendado: 50Kg. 
+			Durabilidade: 15 escaladas.
+			Material: Duro Aluminio/Elastico. 
+			Peso: 460g
+			Preco: R$ 150,00</descricao>
+		<preco>150</preco>
+		<peso>460</peso>
+		<id>6</id>
+		<tipo>3</tipo>
+	</item>
+	<item>
+		<arquivo>itens/cadeirinha.png</arquivo>
+		<arquivoG>itens/cadeirinha_grande.png</arquivoG>
+		<nome>Cadeirinha Pandion C29</nome>
+		<descricao>  Cadeirinha Pandion C29
+			Peso Recomendado: 80Kg. 
+			Durabilidade: 10 escaladas.
+			Material: Duro Aluminio/Elastico. 
+			Peso: 400g
+			Preco: R$ 400,00</descricao>
+		<preco>340</preco>
+		<peso>400</peso>
+		<id>7</id>
+		<tipo>3</tipo>
+	</item>
+	<item>
+		<arquivo>itens/mosquetao2.png</arquivo>
+		<arquivoG>itens/mosquetao2_grande.png</arquivoG>
+		<nome>Mosquetao Montgrony Reto</nome>
+		<descricao>  Mosquetao Montgrony Reto 
+			Tipo Trava: 
+			Material: Duro Aluminio
+			Resitencia: 2550Kg
+			Peso: 65g
+			Preco: R$ 30,00 </descricao>
+		<preco>30</preco>
+		<peso>65</peso>
+		<id>8</id>
+		<tipo>4</tipo>
+	</item>
+	<item>
+		<arquivo>itens/mosquetao.png</arquivo>
+		<arquivoG>itens/mosquetao_grande.png</arquivoG>
+		<nome>Mosquetao HMS Mini </nome>
+		<descricao>  Mosquetao HMS Mini 
+			Tipo Trava: Rosca
+			Material: Duro Aluminio
+			Resitencia: 2700Kg
+			Peso: 65g
+			Preco: R$ 50,00</descricao>
+		<preco>50</preco>
+		<peso>65</peso>
+		<id>9</id>
+		<tipo>4</tipo>		
+	</item>
+	<item>
+		<arquivo>itens/freio.png</arquivo>
+		<arquivoG>itens/freio_grande.png</arquivoG>
+		<nome>Freio Oito Colorido</nome>
+		<descricao> Freio Oito Colorido
+			Utilizacao: Descida/ corda
+			Material: Aluminio
+			Resistencia: 3570Kg
+			Peso: 108g
+			Preco: R$ 50,00</descricao>
+		<preco>50</preco>
+		<peso>108</peso>
+		<id>10</id>
+		<tipo>4</tipo>
+	</item>
+	<item>
+		<arquivo>itens/corda_60m.png</arquivo>
+		<arquivoG>itens/corda_60m_grande.png</arquivoG>
+		<nome>Corda Estatica Azul</nome>
+		<descricao> Corda Estatica Azul 
+			Diametro:10,5mm/60m
+			Ruptura: 3300Kg
+			Material:poliamida
+			Peso: 5400g
+			Preco:R$ 350,00</descricao>
+		<preco>350</preco>
+		<peso>5400</peso>
+		<id>11</id>
+		<tipo>5</tipo>
+	</item>
+	<item>
+		<arquivo>itens/corda_100m.png</arquivo>
+		<arquivoG>itens/corda_100m_grande.png</arquivoG>
+		<nome>Corda Estatica K2 </nome>
+		<descricao> Corda Estatica K2
+			Diametro:10,5mm/100m
+			Ruptura: 4000Kg
+			Material:poliamida
+			Peso: 9000g
+			Preco:R$ 600,00	</descricao>
+		<preco>600</preco>
+		<peso>9000</peso>
+		<id>12</id>
+		<tipo>5</tipo>
+	</item>
+	<item>
+		<arquivo>itens/corda_200m.png</arquivo>
+		<arquivoG>itens/corda_200m_grande.png</arquivoG>
+		<nome>Corda Estatica K2 Azul</nome>
+		<descricao>  Corda Estatica K2
+			  Diametro:10,5mm/200m
+			  Ruptura: 4700Kg
+			  Material:poliamida
+			  Peso: 18000g
+			  Preco:R$ 1200,00</descricao>
+		<preco>1200</preco>
+		<peso>18000</peso>
+		<id>13</id>
+		<tipo>5</tipo>
+	</item>
+	<item>
+		<arquivo>itens/saco_magnesio.png</arquivo>
+		<arquivoG>itens/saco_magnesio_grande.png</arquivoG>
+		<nome>Saco de Magnesio Gym - Curtlo</nome>
+		<descricao>  Saco de Magnesio Gym 
+				Duracao: 15 vezes.
+				Abertura: Estruturada
+				Material: Manta soft
+				Peso: 76g
+				Preco:R$ 30,00</descricao>
+		<preco>30</preco>
+		<peso>76</peso>
+		<id>14</id>
+		<tipo>6</tipo>
+	</item>
+	<item>
+		<arquivo>itens/saco_magnesio2.png</arquivo>
+		<arquivoG>itens/saco_magnesio2_grande.png</arquivoG>
+		<nome>Saco Magnesio La Sportiva</nome>
+		<descricao>  Saco Magnesio Sportiva
+			Duracao: 35 vezes.
+			Abertura: Estruturada
+			Material: Manta soft
+			Peso: 80g
+			Preco:R$ 60,00</descricao>
+		<preco>60</preco>
+		<peso>80</peso>
+		<id>15</id>
+		<tipo>6</tipo>
+	</item>
+	<item>
+		<arquivo>itens/repelente2.png</arquivo>
+		<arquivoG>itens/repelente2_grande.png</arquivoG>
+		<nome>Repelente Spray Extreme </nome>
+		<descricao>  Repelente Spray Extreme
+			Duracao de Uso: 15 vezes.
+			Duracao de acao: 10h		
+			Quantidade:100ml
+			Peso: 50g
+			Preco:R$ 40,00</descricao>
+		<preco>40</preco>
+		<peso>50</peso>
+		<id>16</id>
+		<tipo>0</tipo>
+	</item>
+	<item>
+		<arquivo>itens/halter.png</arquivo>
+		<arquivoG>itens/halter_grande.png</arquivoG>
+		<nome>Halter Fundminas  </nome>
+		<descricao>  Halter Fundminas
+			Durabilidade: 2 anos
+			Cor: vermelho
+			Material: Borracha
+			Peso: 5000g
+			Preco:R$ 30,00</descricao>
+		<preco>30</preco>
+		<peso>5000</peso>
+		<id>17</id>
+		<tipo>7</tipo>
+	</item>
+	
+	
+	
+</itens>
