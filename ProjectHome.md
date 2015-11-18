@@ -1,0 +1,1 @@
+projeto de desenvolvimento de um jogo infantil de simulação de escalada destinado a crianças da faixa etária de 6~12 anos utilizando o sensor de movimentos kinect.
